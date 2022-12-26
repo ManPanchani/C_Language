@@ -101,6 +101,7 @@ void takeAttendance()
 }
 void main()
 {
+    clrscr();
     int choose;
     do
     {
@@ -132,7 +133,7 @@ void main()
             break;        
         }
     } while (choose!=5);
-    
+    getch();
 }
 
 
