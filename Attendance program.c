@@ -1,7 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include<conio.h>
 char stuName[20][30];
+
 int presentAttendance[20]={0};
 int absentAttendance[20]={0};
 int indexNumber=0;
