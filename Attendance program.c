@@ -81,8 +81,9 @@ void takeAttendance()
     for ( i = 0; i < indexNumber; i++)
     {
         repeate:
-        printf("%d. %s is present: ",i+1,stuName[i]);
+        printf("%d. %s is present:  ",i+1,stuName[i]);
         fflush(stdin);
+        
         scanf("%c",&ch);
         if (ch=='P'||ch=='p')
         {
@@ -94,7 +95,7 @@ void takeAttendance()
         } 
         else
         {
-            printf("Invalid character Try again\n");
+            printf("Invalid characters Try again\n");
             goto repeate;
         }              
     }    
