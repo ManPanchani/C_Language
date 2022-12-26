@@ -134,8 +134,3 @@ void main()
     } while (choose!=5);
     
 }
-
-
-
- 
- 
